@@ -1,0 +1,8 @@
+.wa-embed-fab{position:fixed;right:24px;bottom:24px;width:64px;height:64px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px rgba(0,0,0,0.2);z-index:999999}
+.wa-embed-fab img{width:36px;height:36px}
+.wa-embed-panel{position:fixed;right:24px;bottom:100px;width:320px;max-width:calc(100vw - 48px);background:#fff;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,0.18);z-index:999999;display:none}
+.wa-embed-panel.visible{display:block}
+.wa-embed-panel .header{background:#10a04a;color:#fff;padding:12px;border-radius:12px 12px 0 0;display:flex;gap:12px;align-items:center}
+.wa-embed-panel .body{padding:12px}
+.wa-embed-panel input,.wa-embed-panel textarea{width:100%;padding:8px;margin-top:8px;border-radius:6px;border:1px solid #ddd}
+.wa-embed-panel .send{background:#10a04a;color:#fff;padding:10px;border-radius:999px;border:none;width:100%;margin-top:12px}
